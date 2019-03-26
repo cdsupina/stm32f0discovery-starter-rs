@@ -35,3 +35,7 @@ Flash src:
 Flash example adc_serial:
 
 ./flash_device.sh target/thumbv6m-none-eabi/debug/examples/adc_serial
+
+# Issues
+
+Please submit an issue if something isn't working for you!
