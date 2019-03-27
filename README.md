@@ -30,11 +30,11 @@ Plug in your STM32F0DISCOVERY. Use the flash_device.sh shell script to flash you
 
 Flash src:
 
-./flash_device.sh target/thumbv6m-none-eabi/debug/stm32f0discovery-starter-rs
+`./flash_device.sh target/thumbv6m-none-eabi/debug/stm32f0discovery-starter-rs`
 
 Flash example adc_serial:
 
-./flash_device.sh target/thumbv6m-none-eabi/debug/examples/adc_serial
+`./flash_device.sh target/thumbv6m-none-eabi/debug/examples/adc_serial`
 
 # Issues
 
