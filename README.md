@@ -4,6 +4,8 @@ This repository is meant to serve as a starting point for creating and running p
 
 Take note that I'm still a beginner to rust as a language, so I encourage you for the time being to pursue other sources if you are looking to learn the rust language.
 
+I plan to convert this repository use the STM32F103C8T6 "blue pill" by default while putting instructions to use other STM boards in this readme. I think this board is more common and a less expensive starting point than the STM32F0DISCOVERY board.
+
 # Installation
 
 Install rust: https://www.rust-lang.org/tools/install
@@ -35,6 +37,7 @@ Flash src:
 Flash example adc_serial:
 
 `./flash_device.sh target/thumbv6m-none-eabi/debug/examples/adc_serial`
+
 
 # Issues
 
